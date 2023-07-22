@@ -9,7 +9,7 @@ export default function Card() {
     <span>Sports Trivia</span>
   </div>
   <div class="second-content">
-<span></span>
+<span>Do you have what it takes to master all fields of sports?</span>
   </div>
 </div>
 <div class="card">
@@ -17,15 +17,17 @@ export default function Card() {
     <span>General Trivia</span>
   </div>
   <div class="second-content">
-<span></span>
+<span>Can u handle the generality of general trivia?</span>
   </div>
 </div>
 <div class="card">
   <div class="first-content">
-    <span>Coding Trivia</span>
+    <span>Coding Quiz</span>
   </div>
   <div class="second-content">
-<span></span>
+<span>
+  printf("how many can you solve?");
+</span>
   </div>
 </div>
 
