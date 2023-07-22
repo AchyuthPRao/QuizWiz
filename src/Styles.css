@@ -1,11 +1,11 @@
 body{
-    background-color: #ffb803e2;
+    background-color: #00BCD4;
 }
 .abt{
     background-color: black;
 }
 .aitem{
-    background-color: #fb8500;
+    background-color: rgb(243, 241, 239);
 }
 /* color: #fb8500; */
 .abody{
@@ -21,7 +21,7 @@ body{
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    color:#ffb803e2;
+    color:#00BCD4;
     margin-left: 14px;
 }
 .logoParent{
@@ -34,7 +34,7 @@ body{
     align-items: center;
 }
 a{
-    color:#fb8500;
+    color:#00BCD4;
     margin: 8px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
