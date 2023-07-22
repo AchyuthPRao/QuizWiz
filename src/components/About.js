@@ -8,11 +8,11 @@ export default function About() {
       <div className="accordion container my-3 mx-auto p-3" id="accordionExample">
   <div className="accordion-item ">
     <h2 className="accordion-header">
-      <button className="accordion-button x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button className="accordion-button collapsed x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
        Why Us?
       </button>
     </h2>
-    <div id="collapseOne" className="accordion-collapse collapse show abody" data-bs-parent="#accordionExample">
+    <div id="collapseOne" className="accordion-collapse collapse abody" data-bs-parent="#accordionExample">
       <div className="accordion-body">
         <strong>We are the best out there.</strong> 
       </div>
