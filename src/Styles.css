@@ -1,0 +1,46 @@
+body{
+    background-color: #ffb803e2;
+}
+.abt{
+    background-color: black;
+}
+.aitem{
+    background-color: #fb8500;
+}
+/* color: #fb8500; */
+.abody{
+    background-color: black;
+    color: white;
+}
+.x{
+    background-color: #212529;
+    color: white;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:#ffb803e2;
+    margin-left: 14px;
+}
+.logoParent{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    color:#fb8500;
+    margin: 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.elem{
+   padding:10px;
+   font-size: 1.3rem;
+
+}
