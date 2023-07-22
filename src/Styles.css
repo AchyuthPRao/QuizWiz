@@ -5,7 +5,7 @@ body{
     background-color: black;
 }
 .aitem{
-    background-color: rgb(243, 241, 239);
+    background-color: rgb(255, 255, 255);
 }
 /* color: #fb8500; */
 .abody{
@@ -21,6 +21,7 @@ body{
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
+    font-weight: 700;
     color:#00BCD4;
     margin-left: 14px;
 }
@@ -47,9 +48,69 @@ a{
 .footer{
     position: absolute;
     width: 100%;
-
     height: 1.5rem;
     bottom: 0;
-    
-
 }
+.card {
+    font-family: 'Montserrat', sans-serif;
+    width: 15rem;
+    height: 20rem;
+    background: #b4f0f6;
+    transition: all 0.4s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px  rgba(24,154,180,0.705);
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  .card:hover {
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px 5px  rgba(24,154,180,0.705);
+    background: rgb(24,154,180);
+  }
+  
+  .first-content {
+    height: 100%;
+    width: 100%;
+    color: #189ab4;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+  .card:hover .first-content {
+    height: 0px;
+    opacity: 0;
+  }
+  
+  .second-content {
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+  
+  .card:hover .second-content {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.8rem;
+    transform: rotate(0deg);
+  }
+  .trivia{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }

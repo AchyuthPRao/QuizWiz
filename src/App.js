@@ -5,6 +5,8 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Routes } from "react-router-dom"; 
 import Footer from './components/Footer.js';
+import Card from './components/Card';
+
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
     <Navbar/>
       <Routes>
         <Route exact path ="/about" element={<About/>}></Route>
+        <Route exact path ="/" element={<Card />}></Route>
       </Routes>
+      
+      
   </BrowserRouter>
   <Footer />
   </>

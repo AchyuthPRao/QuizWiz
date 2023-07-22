@@ -11,41 +11,40 @@ import {
  from 'mdb-react-ui-kit';
 
 export default function Footer() {
+  let year = new Date().getFullYear();
+
   return (
     <div className="footer">
-    <footer><MDBFooter className='bg-dark text-center text-white'>
+    <footer><MDBFooter className=' text-center text-white ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
     <MDBContainer className='p-4 pb-0'>
       <section className='mb-4'>
-        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        <button outline color="light" floating className='m-1' href='#!' role='button'>
           <MDBIcon fab icon='facebook-f' />
-        </MDBBtn>
+        </button>
 
-        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        <button outline color="light" floating className='m-1' href='#!' role='button'>
           <MDBIcon fab icon='twitter' />
-        </MDBBtn>
+        </button>
 
-        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        <button outline color="light" floating className='m-1' href='#!' role='button'>
           <MDBIcon fab icon='google' />
-        </MDBBtn>
-        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        </button>
+        <button outline color="light" floating className='m-1' href='#!' role='button'>
           <MDBIcon fab icon='instagram' />
-        </MDBBtn>
+        </button>
 
-        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        <button outline color="light" floating className='m-1' href='#!' role='button'>
           <MDBIcon fab icon='linkedin-in' />
-        </MDBBtn>
+        </button>
 
-        <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+        <button outline color="light" floating className='m-1' href='#!' role='button'>
           <MDBIcon fab icon='github' />
-        </MDBBtn>
+        </button>
       </section>
     </MDBContainer>
 
     <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-      © 2020 Copyright:
-      <a className='text-white' href='https://mdbootstrap.com/'>
-        MDBootstrap.com
-      </a>
+      © {year} Copyright QuizWiz
     </div>
   </MDBFooter></footer>
   </div>

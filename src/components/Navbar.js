@@ -10,7 +10,7 @@ export default function Navbar() {
   <div className="list">
     <Link className="navbar-brand" to="/">
         <div className="logoParent">
-      <img  src={quizWiz} alt="" width="80" height="50" className="d-inline-block align-text-top"/>
+      {/* <img  src={quizWiz} alt="" width="80" height="50" className="d-inline-block align-text-top"/> */}
       <div className="logo">
         QuizWiz
       </div>
