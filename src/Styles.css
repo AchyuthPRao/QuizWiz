@@ -44,3 +44,12 @@ a{
    font-size: 1.3rem;
 
 }
+.footer{
+    position: absolute;
+    width: 100%;
+
+    height: 1.5rem;
+    bottom: 0;
+    
+
+}

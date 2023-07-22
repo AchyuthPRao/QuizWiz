@@ -38,7 +38,10 @@ export default function About() {
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse abody" data-bs-parent="#accordionExample">
       <div className="accordion-body ">
-        <strong>achyuthprao123@gmail.com,and others</strong> 
+        <strong>achyuthprao123@gmail.com,
+          adityakumarsahu108@gmail.com,
+          kalmathajay@gmail.com,
+          adityarevankar03@gmail.com</strong> 
       </div>
     </div>
   </div>
