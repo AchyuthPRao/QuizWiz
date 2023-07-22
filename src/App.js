@@ -3,7 +3,8 @@ import './App.css';
 import './Styles.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom"; 
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path ="/about" element={<About/>}></Route>
       </Routes>
   </BrowserRouter>
+  <Footer />
   </>
   );
 }
