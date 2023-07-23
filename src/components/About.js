@@ -4,7 +4,7 @@ import '../Styles.css'
 
 export default function About() {
   return (
-    <div>
+    <div className='aboutt p-3'>
       <div className="accordion container my-3 mx-auto p-3" id="accordionExample">
   <div className="accordion-item ">
     <h2 className="accordion-header">

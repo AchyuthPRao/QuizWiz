@@ -2,18 +2,23 @@ body{
     background-color: #00BCD4;
 }
 .abt{
-    background-color: black;
+    background-color: #09758b;
+}
+.aboutt{
+  font-family: 'Montserrat', sans-serif;
+  
 }
 .aitem{
     background-color: rgb(255, 255, 255);
 }
 /* color: #fb8500; */
 .abody{
-    background-color: black;
+    background-color: #09758b;
     color: white;
 }
 .x{
-    background-color: #212529;
+    font-weight: 600;
+    background-color: #189ab4;
     color: white;
 }
 .logo{
@@ -43,6 +48,7 @@ a{
 .elem{
    padding:10px;
    font-size: 1.3rem;
+   font-weight: 600;
 
 }
 .footer{
@@ -53,8 +59,8 @@ a{
 }
 .card {
     font-family: 'Montserrat', sans-serif;
-    width: 15rem;
-    height: 20rem;
+    width: 16rem;
+    height: 22rem;
     background: #b4f0f6;
     transition: all 0.4s;
     border-radius: 10px;
@@ -64,7 +70,6 @@ a{
   }
   
   .card:hover {
-    
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 900;
@@ -115,9 +120,57 @@ a{
     transform: rotate(0deg);
   }
   .trivia{
-    margin-top: 70px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 90px;
   }
+
+  .qcard{
+    font-family: 'Montserrat', sans-serif;
+    width: 45rem;
+    height: 30rem;
+    color: #189ab4;
+    background: #b4f0f6;
+    transition: all 0.4s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px  rgba(24,154,180,0.705);
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .qcard:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #b4f0f6;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px 5px  rgba(24,154,180,0.705);
+    background: rgb(24,154,180);
+  }
+  .parent{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .children
+  {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    align-items:center;
+    justify-content: space-evenly;
+  }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+  }
+.btn{
+  font-family: 'Montserrat', sans-serif;
+}

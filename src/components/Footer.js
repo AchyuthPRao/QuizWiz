@@ -16,30 +16,25 @@ export default function Footer() {
   return (
     <div className="footer">
     <footer><MDBFooter className=' text-center text-white ' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-    <MDBContainer className='p-4 pb-0'>
+    <MDBContainer className='p-1 pb-0'>
       <section className='mb-4'>
-        <button outline color="light" floating className='m-1' href='#!' role='button'>
-          <MDBIcon fab icon='facebook-f' />
-        </button>
-
-        <button outline color="light" floating className='m-1' href='#!' role='button'>
-          <MDBIcon fab icon='twitter' />
-        </button>
-
-        <button outline color="light" floating className='m-1' href='#!' role='button'>
-          <MDBIcon fab icon='google' />
-        </button>
-        <button outline color="light" floating className='m-1' href='#!' role='button'>
-          <MDBIcon fab icon='instagram' />
-        </button>
-
-        <button outline color="light" floating className='m-1' href='#!' role='button'>
-          <MDBIcon fab icon='linkedin-in' />
-        </button>
-
-        <button outline color="light" floating className='m-1' href='#!' role='button'>
-          <MDBIcon fab icon='github' />
-        </button>
+        <div className="center">
+      <div>
+      <a style= {{color: "#ffff"} }href="#!" role="button">
+  <i class="fab fa-facebook fa-lg"></i>
+</a>
+      </div>
+      <div>
+      <a style={{color: "#ffff"} } href="#!" role="button">
+  <i class="fab fa-google fa-lg"></i>
+</a>
+      </div>
+      <div>
+      <a style= {{color: "#ffff"} } href="#!" role="button">
+  <i class="fab fa-instagram fa-lg"></i>
+</a>
+      </div>
+      </div>
       </section>
     </MDBContainer>
 
